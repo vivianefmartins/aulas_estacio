@@ -221,6 +221,10 @@ int main(){ // Função principal do programa. A execução começa aqui.
                     printf("### Empate! ###\n");
                 }
             break;
+
+            default:
+                printf("Opcao Invalida!\n");
+            break;
     }
 
     return 0; // Indica que o programa foi executado com sucesso.
